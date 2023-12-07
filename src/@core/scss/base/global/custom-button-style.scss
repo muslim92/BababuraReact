@@ -1,0 +1,118 @@
+@import '../bootstrap-extended/variables';
+
+.custom_padding_1 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 10px;
+  border-radius: 8px !important;
+  div {
+    gap: 5px;
+  }
+}
+
+.custom_padding_2 {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 10px;
+  border-radius: 8px !important;
+  div {
+    gap: 4px;
+  }
+}
+
+.custom_padding_3 {
+  padding: 12px 12px;
+
+  border-radius: 8px !important;
+  div {
+    gap: 5px;
+  }
+}
+
+.custom_padding_4 {
+  padding: 8px 12px;
+
+  border-radius: 8px !important;
+}
+
+.secondary_button_background {
+  background-color: var(--white-10, rgba(255, 255, 255, 0.1)) !important;
+  border: none !important;
+}
+
+/* FloatingButton.css */
+// .floating-button {
+//   position: fixed;
+//   bottom: 20px;
+//   left: 50%;
+//   border-radius: 5px;
+// }
+
+.custom-styles {
+  border: none !important;
+  border-radius: 0px !important;
+  width: 202px !important;
+}
+
+.react-select-custom {
+  width: inherit !important;
+}
+
+.avg-map-rank {
+  background-color: $primary;
+  text-align: center;
+  padding: 6px;
+  max-width: 150px;
+  border-radius: 5px;
+}
+
+.rank-comparison {
+  border: 1px solid $primary;
+  text-align: center;
+  padding: 6px;
+  max-width: 150px;
+  border-radius: 5px;
+}
+
+.common-btn-primary {
+  padding: 8px !important;
+  border-radius: 10px !important;
+  background-color: $primary !important;
+}
+
+.common-btn-light-primary {
+  padding: 10px 18px !important;
+  border-radius: 10px !important;
+  background-color: $alice-blue !important;
+}
+
+.common-btn-light-primary-1 {
+  padding: 14px 18px !important;
+  border-radius: 5px !important;
+  background-color: $alice-blue !important;
+}
+
+.common-btn-primary-1 {
+  padding: 11px 18px !important;
+  border-radius: 5px !important;
+  background-color: $primary !important;
+}
+
+.lightFav {
+  padding: 11px 11.909px 11px 11px !important;
+  border-radius: 10px !important;
+  border: 1px solid#E5E5EA !important;
+}
+
+.custom-chevron {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #F8FAFC !important;
+}
+
+.common-btn-icon {
+  border-radius: 10px !important;
+  border: 1px solid #E5E5EA !important;
+}

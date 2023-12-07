@@ -1,0 +1,137 @@
+@import '../bootstrap-extended/variables';
+
+.hero-sec {
+    // height: 648px !important;
+    // padding: 0px 17px;
+    background-color: $alice-blue !important;
+}
+
+.breadcrumb:not([class*=breadcrumb-]) .breadcrumb-item + .breadcrumb-item:before {
+    background-size: 12px !important;
+    color: #C1C1C1 !important;
+    height: 15px !important;
+}
+.image-gallery-svg {
+    height: 40px !important;
+    filter: none !important;
+    background: rgba(255, 255, 255, 0.10) !important;
+}
+
+.icon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.fav-icon {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    cursor: pointer;
+}
+
+// .image-gallery-slide .image-gallery-image {
+//     border-radius: 10px !important;
+// }
+
+.image-gallery-slide .image-gallery-image {
+    object-fit: cover !important;
+    border-radius: 10px !important;
+}
+
+.custom-class {
+    .image-gallery-thumbnail.active {
+        border-radius: 10px !important;
+        border: 1px solid var(--Primary-Color, #289ADE) !important;
+        overflow: hidden !important;
+        padding: 7px !important;
+        background: rgba(40, 154, 222, 0.10) !important;
+    }
+    
+    .image-gallery-thumbnail:hover {
+        border-radius: 10px !important;
+        border: 1px solid var(--Primary-Color, #289ADE) !important;
+        overflow: hidden !important;
+        padding: 7px !important;
+        background: rgba(40, 154, 222, 0.10) !important;
+        transition: none !important;
+    }
+    
+    .image-gallery-thumbnail {
+        width: 174px !important;
+    }
+    
+    .image-gallery-thumbnail .image-gallery-thumbnail-image {
+        border-radius: 5px !important;
+    }
+    .image-gallery-thumbnails .image-gallery-thumbnails-container {
+        text-align: start !important;
+        margin-top: 10px !important;
+    }
+    .image-gallery-thumbnail + .image-gallery-thumbnail {
+        margin-left: 30px !important;
+    }
+    .image-gallery-content .image-gallery-slide .image-gallery-image {
+        height: 400px !important;
+    }
+}
+
+.common-style {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 54px;
+    border-bottom: 1px solid #E5E5EA;
+}
+
+.common-style-1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E5E5EA;
+}
+
+.for-sale {
+    position: absolute;
+    left: 10px;
+    top: 38px;
+    z-index: 888;
+    background-color: #CC0026;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+.for-sale-2 {
+    position: absolute;
+    background-color: #CC0026;
+    border-radius: 5px;
+    padding: 3px 10px;
+    left: 28px;
+    top: 28px;
+    z-index: 888;
+}
+
+.for-sale-3 {
+    background-color: #CC0026;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.project-title-area {
+    width: 100%;
+    height: 148px;
+    border-radius: 10px;
+    background: #F1FAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1280px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1280px;
+    }
+}

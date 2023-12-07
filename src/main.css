@@ -1,0 +1,304 @@
+.btn1 {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_height {
+    height: 44.5rem;
+}
+
+.banner_height_img {
+    max-height: 44.5rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:992px) {
+    .filterMenu {
+        display: none;
+    }
+
+    .banner_height {
+        height: auto;
+    }
+
+    .banner_height_img {
+
+        max-height: auto;
+    }
+}
+
+.swiper-slide {
+    width: auto !important;
+}
+
+.filterMenu {
+    position: absolute;
+    bottom: 11rem;
+    left: 0;
+    /* top: 0; */
+    right: 15rem;
+}
+
+.filterMenu-shadow {
+    box-shadow: 0px 4px 26px 0px rgba(66, 71, 76, 0.10);
+}
+
+.filterMenu-tab {
+    color: var(--text-heading, var(--Light-Gray, #C1C1C1));
+    text-align: center;
+    font-family: "pangeaAfrikanTrial-medium";
+    font-size: 16px;
+    line-height: 150%;
+    width: 115px;
+    padding: 8px 10px;
+    /* border-radius: 0px 10px 0px 0px; */
+    background: #FFF;
+    cursor: pointer;
+}
+
+.filterMenu-radius-left {
+    border-radius: 10px 0 0 0;
+}
+
+.filterMenu-radius-right {
+    border-radius: 0 10px 0 0;
+}
+
+.filterMenu-tab.active {
+    /* border-radius: 10px 0px 0px 0px; */
+    color: var(--White, #FFF);
+    background: var(--Primary-Color, #289ADE);
+}
+
+.filterMenu-search-tab {
+    border-radius: 0px 10px 10px 10px;
+    background: #FFF;
+    padding: 22px;
+}
+
+/* custom-height */
+.h_93 {
+    height: 93% !important;
+}
+
+.filterMenu-search-tab .css-1u9des2-indicatorSeparator {
+    display: none !important;
+}
+
+.filterMenu-search-tab .css-t3ipsp-control {
+    box-shadow: 0 0 0 1px #c8c8c8 !important;
+}
+
+.filterMenu-search-tab .css-t3ipsp-control:hover {
+    border-color: #c8c8c8 !important;
+}
+
+.filterMenu-search-tab .css-13cymwt-control,
+.filterMenu-search-tab .css-t3ipsp-control {
+    border-radius: inherit !important;
+    border: none !important;
+    height: 100%;
+}
+
+.fillter-input {
+    border-radius: 10px;
+    border: 1px solid var(--Input, #E5E5EA);
+    background: #FFF;
+}
+
+.fillter-input-1 {
+    border-radius: 10px !important;
+    background: #FFF;
+    color: #2F2F2F;
+}
+.fillter-btn {
+    display: flex;
+    width: 49px;
+    height: 49px;
+    padding: 8px 14px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: var(--light-primary-color, #F1FAFF);
+}
+
+.search-btn {
+    color: var(--White, #FFF);
+    border-radius: 10px;
+    background: var(--Primary-Color, #289ADE);
+    text-align: center;
+    font-family: "pangeaAfrikanTrial-bold";
+    font-size: 15px;
+    padding: 8px 14px;
+    white-space: nowrap;
+}
+
+.fillter-items {
+    color: #979797 !important;
+    border: 1px solid #c4c4c4 !important;
+    font-family: 'pangeaAfrikanTrial-regular';
+    font-size: 10px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fillter-items.active,
+.fillter-items:hover {
+    color: #289ADE !important;
+    font-family: 'PangeaAfrikanTrial-regular';
+    border: 1px solid #289ADE !important;
+}
+
+/* .fillter-items {
+    color: var(--Gray-Shade, #C1C1C1);
+    font-family: 'pangeaAfrikanTrial-semibold';
+    font-size: 10px;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    padding: 4px 0px;
+}
+
+.fillter-items img {
+    border-radius: 50%;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    justify-content: center;
+    margin-right: 0.5rem;
+    align-items: center;
+    background: rgba(229, 229, 234, 0.20);
+    backdrop-filter: blur(2px);
+}
+
+.fillter-items.active,
+.fillter-items:hover {
+    color: #289ADE;
+    font-family: 'PangeaAfrikanTrial-Medium';
+    border-bottom: 1px solid #289ADE;
+}
+
+.fillter-items:hover img,
+.fillter-items.active img {
+
+    background: rgba(40, 154, 222, 0.10);
+    backdrop-filter: blur(2px);
+} */
+
+.slider-head {
+    color:  #2F2F2F;
+    font-family: "pangeaAfrikanTrial-semibold";
+    font-size: 48px;
+    line-height: 120%; /* 57.6px */
+    letter-spacing: 0.5px;
+}
+
+.slider-subhead {
+    color: var(--text-text-note, #8E8E93);
+    font-family: 'pangeaAfrikanTrial-regular';
+    font-size: 14px;
+}
+
+.head1 {
+    color: var(--Bababura-Black, #2F2F2F);
+    font-family: 'pangeaAfrikanTrial-medium';
+    font-size: 48px;
+}
+
+.head2 {
+    color: #8C959F;
+    font-family: 'pangeaAfrikanTrial-regular';
+    font-size: 14px;
+}
+
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+.card_grid_3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    /* justify-items: center; */
+}
+
+.card_grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 313px));
+    /* justify-items: center; */
+    justify-content: center;
+}
+
+.swiper-button-prev {
+    left: 2px !important;
+}
+
+.swiper-button-next {
+    right: 2px !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: white;
+    height: 38px !important;
+    width: 38px !important;
+    border-radius: 50%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.items-gap {
+    column-gap: 2.7rem;
+    row-gap: 1.9rem;
+}
+
+.items-gap-1 {
+    column-gap: 0.25rem;
+    row-gap: 0.625rem;
+}
+
+.discover {
+    padding: 70px 70px 62px;
+}
+
+
+.dream-card-sub {
+    color: var(--text-heading, var(--Light-Gray, #C1C1C1));
+    font-family: "pangeaAfrikanTrial-medium";
+    font-size: 14px;
+    /* font-weight: 700; */
+}
+@media (max-width:567px) {
+    .discover {
+        padding: 30px 16px 16px;
+    }
+    
+    .items-gap {
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+
+    .head1,
+    .slider-head {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1255px) {
+    .filterMenu {
+        position: absolute;
+        bottom: 15rem;
+        left: 0;
+        /* top: 0; */
+        right: 2rem;
+    }
+}

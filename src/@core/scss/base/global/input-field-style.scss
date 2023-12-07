@@ -1,0 +1,225 @@
+.custom-search {
+  border-radius: 8px !important;
+  border: none !important;
+  // background: var(--white-10, rgba(255, 255, 255, 0.10)) !important;
+  width: 296px !important;
+  padding: 4px 6px !important;
+}
+
+// custom-input
+.custom-input-1 {
+  border-radius: 8px !important;
+  color: white !important;
+}
+
+// custom columns chart
+.columns-chart {
+  border-radius: 16px !important;
+  background-color: #212b36 !important;
+}
+
+.mapCustomInput {
+  width: 100% !important;
+  border: 1px solid #01b969 !important;
+  background-color: '#161c24' !important;
+   color: white !important;
+   padding: 5 !important;
+   overflow: hidden !important
+}
+
+/* Hide vertical scrollbar */
+// ::-webkit-scrollbar {
+//   display: none;
+// }
+
+/* Optional: Hide horizontal scrollbar */
+// ::-webkit-scrollbar-horizontal {
+//   display: none;
+// }
+
+/* Optional: Hide scrollbar track */
+// ::-webkit-scrollbar-track {
+//   display: none;
+// }
+
+/* This will hide the scrollbar and prevent scrolling */
+// .container-with-hidden-scrollbar {
+//   overflow: hidden;
+// }
+
+// .pagination {
+//   display: flex;
+//   justify-content: center;
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+//   align-items: center;
+// }
+
+// .pagination li {
+//   display: inline-block;
+//   margin: 8px;
+//   font-family: 'inter_regular';
+//   /* padding-top: 0.6rem ; */
+//   /* padding-bottom: 0.6rem ; */
+// }
+
+// .pagination a {
+//   font-size: 14px;
+//   padding: 4px 8px;
+//   border: none;
+//   cursor: pointer;
+//   color: white;
+//   text-decoration: none;
+// }
+
+// .pagination a:hover,
+// .pagination a.active {
+//   background: #0a905a;
+//   border-radius: 8px;
+//   color: white !important;
+// }
+
+// .css-13cymwt-control {
+//   background-color: #212b36 !important;
+//   border-color: #404656 !important;
+//   border-radius: 8px !important;
+// }
+
+// .css-1dimb5e-singleValue {
+//   color: white !important;
+// }
+
+// .css-t3ipsp-control {
+//   background-color: #212b36 !important;
+//   border-color: #01b969 !important;
+//   box-shadow: 0px 0px 0px 1px #01b969 !important;
+// }
+.css-1nmdiq5-menu {
+  max-height: 220px !important;
+  overflow-x: hidden;
+}
+
+code {
+  color: #01b969 !important;
+  display: flex !important;
+  margin-left: -20px !important;
+}
+
+
+/* Style for X-axis title */
+.x-axis-title-custom {
+  margin-top: 20px !important;
+}
+
+.apexcharts-xaxis > .apexcharts-xaxis-title {
+  margin-top: 20px; /* Adjust the margin value as needed */
+}
+
+.apexcharts-xaxis-title text {
+  font-size: 16px;
+  color: white !important;
+  fill: white !important;
+  font-weight: bold;
+}
+
+/* Style for Y-axis title */
+.apexcharts-yaxis-title text {
+  font-size: 16px;
+  color: white !important;
+  fill: white !important;
+  font-weight: bold;
+}
+
+.dropdown-container {
+  position: absolute;
+  top: 10px; /* Adjust the top value as needed */
+  right: 10px; /* Adjust the right value as needed */
+  z-index: 1000; 
+} 
+
+.overlay-spinner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure the overlay is above the map */
+}
+
+.circles-custom-line::after {
+  content: "";
+  display: flex;
+  flex-direction: row;
+  width: 100% !important;
+  height: 2px !important;
+  background-color: #01b969 !important;
+}
+
+/* Your main CSS file */
+.timeline-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 24px;
+  width: fit-content;
+}
+
+.circle-container {
+  width: 150px !important;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // position: relative;
+  z-index: 8;
+  cursor: pointer;
+}
+
+.hovered {
+  /* Define styles for the hovered circle */
+  /* For example, change background color or add a border */
+}
+
+.circle-card {
+  // position: absolute;
+  // top: -160px; /* Adjust the distance of the card from the circle */
+  background-color: #454950;
+  padding: 8px;
+  border-radius: 8px;
+  // min-height: 150px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  // width: 200px;
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  top: 22%; /* Adjust the vertical position of the line */
+  width: 100%;
+  height: 2px;
+  background-color: green;
+  z-index: 1; /* Place the line behind the circles */
+}
+
+.circle-date {
+  margin-top: 10px;
+  width: 100%;
+ /* Adjust the vertical position of the line */
+} 
+
+
+.horizontal_line {
+  border-radius: 50px;
+width: 329px;
+align-self: stretch;
+height: 17px
+}

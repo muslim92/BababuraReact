@@ -1,0 +1,461 @@
+//  ================================================================================================
+//  File Name: style-font.scss
+//  Description: Custom style for buttons
+//  ----------------------------------------------------------------------------------------------
+
+@import '../bootstrap-extended/variables';
+
+// pangeaAfrikanTrial: text
+// helvetica: text2
+
+//--------------------------------------------> Pangea Afrikan Trial Family
+
+// ** black , #2F2F2F
+@mixin text-black-400 {
+  font-family: 'pangeaAfrikanTrial-regular';
+  color: $black
+}
+@mixin text-black-500 {
+  font-family: 'pangeaAfrikanTrial-medium';
+  color: $black
+}
+@mixin text-black-600 {
+  font-family: 'pangeaAfrikanTrial-semibold';
+  color: $black
+}
+@mixin text-black-700 {
+  font-family: 'pangeaAfrikanTrial-bold';
+  color: $black
+}
+//--> extend black
+.text_black_1 {
+  @include text-black-400;
+  font-size: $font-size-14;
+  line-height: normal
+}
+.text_black_2 {
+  @include text-black-600;
+  font-size: $font-size-40;
+}
+.text_black_3 {
+  @include text-black-500;
+  font-size: $font-size-14;
+}
+.text_black_4 {
+  @include text-black-600;
+  font-size: $font-size-18;
+}
+.text_black_5 {
+  @include text-black-600;
+  font-size: $font-size-14;
+}
+.text_black_6 {
+  @include text-black-400;
+  font-size: $font-size-18;
+}
+.text_black_7 {
+  @include text-black-600;
+  font-size: $font-size-48;
+}
+.text_black_8 {
+  @include text-black-400;
+  font-size: $font-size-20;
+}
+.text_black_9 {
+  @include text-black-400;
+  font-size: $font-size-16;
+}
+.text_black_10 {
+  @include text-black-600;
+  font-size: $font-size-20;
+}
+.text_black_11 {
+  @include text-black-600;
+  font-size: $font-size-12;
+}
+.text_black_12 {
+  @include text-black-400;
+  font-size: $font-size-10;
+}
+.text_black_13 {
+  @include text-black-600;
+  font-size: $font-size-32;
+}
+.text_black_14 {
+  @include text-black-600;
+  font-size: $font-size-24;
+}
+.text_black_15 {
+  @include text-black-700;
+  font-size: $font-size-28;
+}
+
+
+@media (max-width:567px) {
+  .text_black_2 {
+    @include text-black-500;
+    font-size: $font-size-35;
+  }
+}
+// ** black-russian , #1C1C1E
+@mixin text-black-russian-600 {
+  font-family: 'pangeaAfrikanTrial-medium';
+  color: $black-russian
+}
+
+//--> extend black-russian
+.text_black-russian_1 {
+  @include text-black-russian-600;
+  font-size: $font-size-48;
+}
+
+// ** silver , #C1C1C1
+@mixin text-silver-400 {
+  font-family: 'pangeaAfrikanTrial-regular';
+  color: $silver
+}
+@mixin text-silver-600 {
+  font-family: 'pangeaAfrikanTrial-medium';
+  color: $silver
+}
+
+//--> extend silver
+.text_silver_1 {
+  @include text-silver-400;
+  font-size: $font-size-16;
+}
+.text_silver_2 {
+  @include text-silver-400;
+  font-size: $font-size-12;
+}
+.text_silver_3 {
+  @include text-silver-600;
+  font-size: $font-size-12;
+}
+.text_silver_4 {
+  @include text-silver-600;
+  font-size: $font-size-20;
+}
+
+// ** grey-suit , #8E8E93
+@mixin text-grey-suit-400 {
+  font-family: 'pangeaAfrikanTrial-regular';
+  color: $grey-suit
+}
+@mixin text-grey-suit-500 {
+  font-family: 'pangeaAfrikanTrial-medium';
+  color: $grey-suit
+}
+
+//--> extend grey-suit
+.text_grey-suit_1 {
+  @include text-grey-suit-400;
+  font-size: $font-size-14;
+}
+.text_grey-suit_2 {
+  @include text-grey-suit-400;
+  font-size: $font-size-16;
+}
+.text_grey-suit_3 {
+  @include text-grey-suit-500;
+  font-size: $font-size-18;
+}
+
+// ** primary , #289ADE
+@mixin text-primary-500 {
+  font-family: 'pangeaAfrikanTrial-medium';
+  color: $primary
+}
+@mixin text-primary-400 {
+  font-family: 'pangeaAfrikanTrial-regular';
+  color: $primary
+}
+@mixin text-primary-600 {
+  font-family: 'pangeaAfrikanTrial-semibold';
+  color: $primary
+}
+
+//--> extend primary
+.text_primary_1 {
+  @include text-primary-500;
+  font-size: $font-size-14;
+}
+.text_primary_2 {
+  @include text-primary-600;
+  font-size: $font-size-18;
+}
+.text_primary_3 {
+  @include text-primary-400;
+  font-size: $font-size-14;
+}
+.text_primary_4 {
+  @include text-primary-600;
+  font-size: $font-size-12;
+}
+.text_primary_5 {
+  @include text-primary-600;
+  font-size: $font-size-20;
+}
+.text_primary_6 {
+  @include text-primary-400;
+  font-size: $font-size-16;
+}
+.text_primary_7 {
+  @include text-primary-600;
+  font-size: $font-size-32;
+}
+
+// ** black-marlin , #3A3A3C
+@mixin text-black-marlin-400 {
+  font-family: 'pangeaAfrikanTrial-regular';
+  color: $black-marlin
+}
+@mixin text-black-marlin-600 {
+  font-family: 'pangeaAfrikanTrial-bold';
+  color: $black-marlin
+}
+
+//--> extend black-marlin
+.text_black-marlin_1 {
+  @include text-black-marlin-400;
+  font-size: $font-size-14;
+}
+.text_black-marlin_2 {
+  @include text-black-marlin-400;
+  font-size: $font-size-16;
+}
+.text_black-marlin_3 {
+  @include text-black-marlin-600;
+  font-size: $font-size-12;
+}
+
+// ** black_custom , #000
+@mixin text-black_custom-600 {
+  font-family: 'pangeaAfrikanTrial-medium';
+  color: $black_custom
+}
+@mixin text-black_custom-400 {
+  font-family: 'pangeaAfrikanTrial-regular';
+  color: $black_custom
+}
+@mixin text-black_custom-700 {
+  font-family: 'pangeaAfrikanTrial-bold';
+  color: $black_custom
+}
+
+//--> extend black_custom
+.text_black_custom_1 {
+  @include text-black_custom-600;
+  font-size: $font-size-32;
+}
+.text_black_custom_2 {
+  @include text-black_custom-400;
+  font-size: $font-size-8;
+}
+.text_black_custom_3 {
+  @include text-black_custom-400;
+  font-size: $font-size-12;
+}
+.text_black_custom_4 {
+  @include text-black_custom-600;
+  font-size: $font-size-20;
+}
+.text_black_custom_5 {
+  @include text-black_custom-700;
+  font-size: $font-size-12;
+  line-height: normal;
+letter-spacing: 4px;
+}
+.text_black_custom_6 {
+  @include text-black_custom-400;
+  font-size: $font-size-16;
+  font-style: normal;
+line-height: 150%; 
+}
+
+// ** white , #fff
+@mixin text-white-600 {
+  font-family: 'pangeaAfrikanTrial-medium';
+  color: $white
+}
+@mixin text-white-400 {
+  font-family: 'pangeaAfrikanTrial-regular';
+  color: $white
+}
+
+//--> extend white
+.text_white_1 {
+  @include text-white-600;
+  font-size: $font-size-20;
+}
+.text_white_2 {
+  @include text-white-400;
+  font-size: $font-size-16;
+}
+.text_white_3 {
+  @include text-white-400;
+  font-size: $font-size-16;
+}
+.text_white_4 {
+  @include text-white-400;
+  font-size: $font-size-20;
+}
+.text_white_5 {
+  @include text-white-400;
+  font-size: $font-size-14;
+}
+.text_white_6 {
+  @include text-white-600;
+  font-size: $font-size-16;
+}
+.text_white_7 {
+  @include text-white-600;
+  font-size: $font-size-18;
+}
+.text_white_8 {
+  @include text-white-600;
+  font-size: $font-size-12;
+}
+.text_white_9 {
+  @include text-white-400;
+  font-size: $font-size-12;
+}
+
+// ** matterhorn , #4E4E4E
+@mixin text-matterhorn-400 {
+  font-family: 'pangeaAfrikanTrial-regular';
+  color: $matterhorn
+}
+@mixin text-matterhorn-700 {
+  font-family: 'pangeaAfrikanTrial-bold';
+  color: $matterhorn
+}
+
+//--> extend matterhorn
+.text_matterhorn_1 {
+  @include text-matterhorn-400;
+  font-size: $font-size-20;
+}
+.text_matterhorn_2 {
+  @include text-matterhorn-700;
+  font-size: $font-size-18;
+} 
+
+
+
+
+// Text2 , Helvetica
+
+// ** primary , #289ADE
+@mixin text2-primary-700 {
+  font-family: 'helvetica-bold';
+  color: $primary
+}
+
+//--> extend primary
+.text2_primary_1 {
+  @include text2-primary-700;
+  font-size: $font-size-14;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+// ** bali-hai , #8C959F
+@mixin text2-bali-hai-400 {
+  font-family: 'helvetica-regular';
+  color: $bali-hai
+}
+
+//--> extend bali-hai
+.text2_bali-hai_1 {
+  @include text2-bali-hai-400;
+  font-size: $font-size-24;
+  line-height: 40px;
+}
+
+// ** silver , #C1C1C1
+@mixin text2-silver-700 {
+  font-family: 'helvetica-bold';
+  color: $silver
+}
+
+//--> extend silver
+.text2_silver_1 {
+  @include text2-silver-700;
+  font-size: $font-size-14;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+// ** black-marlin , #3A3A3C
+@mixin text2-black-marlin-700 {
+  font-family: 'helvetica-bold';
+  color: $black-marlin
+}
+
+//--> extend black-marlin
+.text2_black-marlin_1 {
+  @include text2-black-marlin-700;
+  font-size: $font-size-14;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+// ** black , #2F2F2F
+@mixin text2-black-400 {
+  font-family: 'helvetica-regular';
+  color: $black
+}
+@mixin text2-black-700 {
+  font-family: 'helvetica-bold';
+  color: $black
+}
+
+//--> extend black
+.text2_black_1 {
+  @include text2-black-400;
+  font-size: $font-size-24;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.text2_black_2 {
+  @include text2-black-700;
+  font-size: $font-size-14;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+
+// ** white , #fff
+@mixin text2-white-600 {
+  font-family: 'helvetica-medium';
+  color: $white
+}
+@mixin text2-white-400 {
+  font-family: 'helvetica-regular';
+  color: $white
+}
+
+//--> extend white
+.text2_white_1 {
+  @include text2-white-600;
+  font-size: $font-size-20;
+}
+.text2_white_2 {
+  @include text2-white-400;
+  font-size: $font-size-14;
+  line-height:normal;
+  letter-spacing: 1px;
+}
+
+// ** grey-suit , #8E8E93
+@mixin text2-grey-suit-400 {
+  font-family: 'helvetica-regular';
+  color: $grey-suit
+}
+
+//--> extend grey-suit
+.text2_grey-suit_1 {
+  @include text-grey-suit-400;
+  font-size: $font-size-24;
+}

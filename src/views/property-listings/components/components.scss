@@ -1,0 +1,247 @@
+.filterbtn {
+    padding: 15px 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #F1FAFF !important;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.filterbtn1 {
+    padding: 11px 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #F1FAFF !important;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.filterbtnActive {
+    padding: 10px 30px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+    border-radius: 10px;
+    background-color: #289ADE !important;
+    cursor: pointer;
+}
+
+.pvt {
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: 1px solid #e5e5ea;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #3A3A3C;
+}
+
+.pvt-selected {
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: 1px solid #289ADE;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: #289ADE;
+}
+
+.rap {
+    border-radius: 10px;
+    border-left: 4px solid #289ADE;
+    background: #F1FAFF;
+    padding: 10px;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.property-alert {
+    padding: 8px !important;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 9px !important;
+    width: fit-content !important;
+}
+
+.common-listing-card {
+    padding: 16px !important;
+    border-radius: 12px !important;
+    background: #FFF !important;
+    box-shadow: 0px 4px 26px 0px rgba(66, 71, 76, 0.08) !important;
+    overflow: hidden;
+    position: relative;
+}
+
+.featuredListingSec {
+    border-radius: 10px;    
+    background-color: #FBFBFB;
+    padding: 13px;
+}
+
+.FeaturedListingHorizontal {
+    padding: 20px 0px !important;
+    border-bottom: 1px solid #ECECEC !important;
+}
+
+.flh-img {
+    height: 80px;
+    width: 112px;
+    border-radius: 10px;
+}
+
+.spc-sec {
+    border-radius: 10px;
+    background-color: #FBFBFB;
+    padding: 20px;
+}
+
+.SoldPropertyCard {
+    padding-bottom: 31px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.spc-img {
+    border-radius: 8px !important;
+    height: 130px;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+.custom-badge {
+    padding: 4px 10px !important;
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+    border-radius: 5px !important;
+    background-color: #FFF !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.project-header {
+    background:#CC0026;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc-sec {
+    padding: 19px 30px 20px 30px;
+}
+
+.project-h-card {
+    border-top: 1px solid #E5E5EA;
+}
+
+.phc-img {
+    width: 200px;
+    height: 130px;
+    border-radius: 0px !important;
+    object-fit: cover !important;
+}
+
+.sclc {
+    border-radius: 10px;
+    border: 1px solid#F1FAFF;
+    margin-top: 50px;
+    background: #FFF;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sclc-img {
+    height: 500px !important;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.sclc-desc {
+    padding: 19px 26px 20px 39px;
+}
+
+.pnyc {
+    height: 96px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pnyc-info {
+    position: absolute;
+    left: 10px;
+    bottom: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+.pnyc-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 53.85%, #000 100%);
+}
+
+.pac {
+    height: 470px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlayContentStyle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(107, 144, 128, 0.00) 36.38%, #24332C 100%);
+  };
+
+.pac-desc {
+    position: absolute;
+    left: 30px;
+    bottom: 21px;
+    width: 60%;
+}
+
+.auction-date-card {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+    border: 2px solid #E5E5EA;
+    cursor: pointer;
+}
+
+.auction-date-card-selected {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #289ADE;
+}

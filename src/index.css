@@ -1,0 +1,35 @@
+/* --------------->Helvetica */
+  @font-face {
+    font-family: helvetica-regular;
+    src: url('./@core/assets/fonts/helvetica/Helvetica.ttf');
+  }
+  @font-face {
+    font-family: helvetica-medium;
+    src: url('./@core/assets/fonts/helvetica/Helvetica.ttf');
+  }
+  @font-face {
+    font-family: helvetica-bold;
+    src: url('./@core/assets/fonts/helvetica/Helvetica-Bold.ttf');
+  }
+
+  /* --------------->pangeaAfrikanTrial */
+  @font-face {
+    font-family: pangeaAfrikanTrial-thin;
+    src: url('./@core/assets/fonts/pangeaAfrikanTrial/PangeaAfrikanTextTrial-Light.ttf');
+  }
+  @font-face {
+    font-family: pangeaAfrikanTrial-regular;
+    src: url('./@core/assets/fonts/pangeaAfrikanTrial/PangeaAfrikanTextTrial-Regular.ttf');
+  }
+  @font-face {
+    font-family: pangeaAfrikanTrial-medium;
+    src: url('./@core/assets/fonts/pangeaAfrikanTrial/PangeaAfrikanTextTrial-Medium.ttf');
+  }
+  @font-face {
+    font-family: pangeaAfrikanTrial-semibold;
+    src: url('./@core/assets/fonts/pangeaAfrikanTrial/PangeaAfrikanTextTrial-SemiBold.ttf');
+  }
+  @font-face {
+    font-family: pangeaAfrikanTrial-bold;
+    src: url('./@core/assets/fonts/pangeaAfrikanTrial/PangeaAfrikanTextTrial-Bold.ttf');
+  }

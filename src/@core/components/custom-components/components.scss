@@ -1,0 +1,208 @@
+@import '../../scss/base/bootstrap-extended/variables';
+
+.search-container {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 26px 0px rgba(66, 71, 76, 0.10);
+}
+
+.property-type {
+    border-radius: 10px;
+    box-shadow: none;
+    opacity: 1;
+    padding: 0px !important;
+    overflow: hidden;
+    width: 100%;
+    width: 256px;
+    height: 354px;
+}
+
+.hover-effect {
+    transition: transform .3s;
+    overflow: hidden;
+}
+
+.hover-effect:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.property-clear {
+    border-radius: 10px;
+    box-shadow: none;
+    opacity: 1;
+    background: transparent;
+    padding: 0px !important;
+    width: 100%;
+    width: 256px;
+    height: 354px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.property-type-desc {
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    z-index: 99;
+
+}
+
+.development-properties-desc {
+    position: absolute;
+    bottom: 51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 6px;
+    z-index: 99;
+
+}
+
+
+// development
+.development-properties {
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    left: 11px;
+    background-color: #000;
+    border-radius: 5px;
+    // padding: 5px 10px;
+    padding: 3px 10px;
+}
+
+// pills
+.custom-pill {
+    padding: 8px 14px;
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    background: $white;
+    box-shadow: 0px 4px 18px 0px rgba(66, 71, 76, 0.10);
+}
+
+
+// Cards
+.common-card {
+    // margin-inline: auto;
+    padding: 16px !important;
+    max-width: 320px !important;
+    min-width: 290px;
+    width: 100%;
+    box-shadow: 0px 4px 26px 0px rgba(66, 71, 76, 0.08) !important;
+    border-radius: 16px !important;
+}
+.discover-card {
+    // margin-inline: auto;
+    padding: 16px !important;
+    max-width: 361px !important;
+    min-width: 320px;
+    width: 100%;
+    box-shadow: 0px 4px 26px 0px rgba(66, 71, 76, 0.08) !important;
+    border-radius: 16px !important;
+}
+
+.real-estate-card {
+    position: relative;
+    // max-width: 320px;
+    height: 292px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.news-card {
+    position: relative;
+    // max-width: 320px;
+    height: 299px;
+    z-index: 1000;
+}
+
+
+
+.card-head1 {
+    color: #282A39;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.card-head2 {
+    color: #82838B;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+@media (max-width:450px) {
+    .discover-card,
+    .common-card {
+        // margin-inline: auto;
+        padding: 16px !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        box-shadow: 0px 4px 26px 0px rgba(66, 71, 76, 0.08) !important;
+        border-radius: 16px !important;
+    }
+}
+
+.img-sec-card {
+    border-radius: 10px !important;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-common {
+    opacity: 0.7;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 53.85%, rgba(0, 0, 0, 0.70) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.card-img-common-clear {
+    opacity: 1;
+    background: transparent;
+    overflow: hidden;
+    transition: transform .3s;
+    object-fit: cover;
+}
+
+.card-img-common-clear-hovered {
+    opacity: 1;
+    background: transparent;
+    overflow: hidden;
+    transition: transform .3s;
+    transform: scale(1.1);
+}
+
+// .featured {
+//     position: absolute;
+//     left: -4px;
+//     top: 13px;
+// }
+
+.featured {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: $primary;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+.dream-home {
+    margin-top: 300px;
+    background-color: #F6F9FB !important;
+    // height: 407px;
+    // width: 100%;
+}
